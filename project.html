@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project</title>
+
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+
+            margin: 0px;
+            padding: 0px;
+            background-image: url(WhatsApp\ Image\ 2023-06-12\ at\ 10.04.15\ PM.jpeg);
+            background-size : cover;
+            height: 567px;
+            width : auto;
+
+        }
+
+        .left {
+            color: rgb(5, 210, 225);
+            border: 2px solid rgb(0, 238, 255);
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+        }
+
+        .left img {
+            width: 90px;
+            height: 70px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            background-color: black;
+        }
+
+        .mid {
+            color: blue;
+            border: 2px solid rgb(13, 45, 253);
+            width: 57%;
+            display: block;
+            margin: 30px auto;
+
+        }
+
+        .right {
+            color: rgb(183, 42, 141);
+            border: 2px solid rgb(10, 253, 119);
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 23px;
+
+        }
+
+        .navbar li a {
+            color: rgb(209, 83, 171);
+            text-decoration: none;
+            padding: 15px 13px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(248, 248, 248);
+
+        }
+
+        .btn {
+            margin: auto;
+            padding: 7px 5px;
+            background-color: rgb(39, 37, 37);
+            color: white;
+            border: 2px solid grey;
+            border-radius: 11px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            text-decoration: underline;
+            color: blanchedalmond;
+            background-color: rgb(39, 67, 58);
+        }
+
+        .container {
+            margin: 30px;
+            margin-top: 90px;
+
+            border: 2px solid rgb(94, 199, 220);
+            padding: 70px;
+            width: 30%;
+            border-radius: 20px;
+            align-items: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            border: 2px solid rgb(146, 28, 28);
+            width: 350px;
+            border-radius: 40px;
+            padding: 6px;
+            font-size: 13px;
+            margin: 8px;
+        }
+
+        .container button {
+            display: block;
+            width: 90%;
+            margin: 28px auto;
+            border-radius: 30px;
+            background-color: rgb(37, 29, 17);
+
+        }
+    </style>
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="img/WhatsApp Image 2023-06-08 at 11.33.57 PM.jpeg" alt="huppp">
+                <div>Fitness</div>
+
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About us</a></li>
+                    <li> <a href="#">Fitness calculater</a></li>
+                    <li> <a href="#">Contact us </a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call us</button>
+                <button class="btn">Email us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>JOIN THE BEST GYM</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Phone no.">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+
+    </body>
+</html>
